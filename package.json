@@ -50,7 +50,7 @@
     "@stdlib/napi-export": "^0.2.2",
     "@stdlib/stats-strided-dmeanpn": "github:stdlib-js/stats-strided-dmeanpn#main",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/utils-library-manifest": "^0.2.3",
     "@stdlib/utils-try-require": "^0.2.2"
   },
   "devDependencies": {
@@ -101,7 +101,6 @@
     "double",
     "float64array"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"

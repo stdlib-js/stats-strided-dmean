@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-strided-dmean",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Calculate the arithmetic mean of a double-precision floating-point strided array.",
   "license": "Apache-2.0",
   "author": {
@@ -47,7 +47,7 @@
     "@stdlib/napi-argv-int64": "^0.2.2",
     "@stdlib/napi-argv-strided-float64array": "^0.2.2",
     "@stdlib/napi-create-double": "^0.0.2",
-    "@stdlib/napi-export": "^0.2.2",
+    "@stdlib/napi-export": "^0.3.0",
     "@stdlib/stats-strided-dmeanpn": "github:stdlib-js/stats-strided-dmeanpn#main",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.3",

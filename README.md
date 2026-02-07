@@ -65,6 +65,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 To use in Observable,
 
 ```javascript
+dmean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmean/tags). For example,
+
+```javascript
 dmean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@v0.1.1-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var dmean = require( 'path/to/vendor/umd/stats-strided-dmean/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -187,7 +192,7 @@ var v = dmean.ndarray( 4, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
